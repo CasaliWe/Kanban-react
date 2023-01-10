@@ -1,0 +1,127 @@
+.Add{
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.438);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: black;
+}
+
+.Add .add_box{
+    width: 350px;
+    height: 190px;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Add .add_box h4{
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Add .add_box input{
+     margin-bottom: 5px;
+     margin-top: 10px;
+     border: none;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+     border-radius: 5px;
+     padding: 5px;
+}
+
+
+
+.select{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+}
+
+.select select{
+    background-color: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+
+.select select option:nth-child(1){
+     background-color: white;
+}
+
+.select select option:nth-child(2){
+    background-color: blue;
+    color: white;
+}
+
+.select select option:nth-child(3){
+    background-color: orangered;
+}
+
+.select select option:nth-child(4){
+    background-color: rgba(172, 255, 47, 0.747);
+}
+
+
+
+
+
+.alert{
+      color: red;
+      font-size: 10px;
+      margin: 5px;
+      text-align: center;
+}
+
+
+
+
+.Add .add_box .btns{
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}
+
+.Add .add_box .btns button{
+    margin: 5px;
+    background-color: transparent;
+    border: none;
+    color:  rgba(19, 19, 224, 0.774);
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+.Add .add_box .btns button:hover{
+    color:  rgba(19, 19, 224, 0.452);
+}
+
+
+
+
+
+
+
+@media (max-width:800px){
+    .Add .add_box{
+        width: 90%;
+        height: 190px;
+        background-color: white;
+        box-shadow: 0px 0px 5px black;
+        border-radius: 10px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+}

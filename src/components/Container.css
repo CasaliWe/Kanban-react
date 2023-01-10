@@ -1,0 +1,53 @@
+.container{
+      margin: 30px 5px;
+      width: 270px;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 5px;
+}
+
+.container h4{
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: white;
+        padding: 5px;
+}
+
+.vazio {
+      color: white;
+      text-align: center;
+      margin: 10px;
+      background-color: transparent;
+      padding: 5px;
+      border-radius: 3px;
+}
+
+.animaTask{
+       background-color: gray;
+       padding: 2px 0px;
+       margin: 0 auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       animation: taskAnimation 800ms normal;
+}
+
+@keyframes taskAnimation {
+        from{width: 0%;}
+        to{width: 50%;}
+}
+
+
+
+
+
+
+@media (max-width:800px){
+      .container{
+            margin: 10px 5px;
+            width: 350px;
+      }
+}

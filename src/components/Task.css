@@ -1,0 +1,29 @@
+.task{
+       padding: 10px;
+       font-size: 11px;
+       background-color: white;
+       color: black;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin: 5px;
+}
+
+.icones i {
+    margin: 3px;
+    padding: 2px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+.icones i:hover {
+    color: red;
+}
+
+
+
+@media (max-width: 800px){
+    .task{
+        font-size: 14px;
+ }
+}
